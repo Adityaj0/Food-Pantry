@@ -15,18 +15,23 @@
         <a class="logo" href="#">PANTRY</a>
         <nav>
             <ul class="nav_links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutus1">About</a></li>
+                <li><a href="#contact-page">Contact</a></li>
             </ul>
         </nav>
         <button id="login-btn" class="cta">Login</button>
     </header>
+
     <hr>
-    <p class="top" style="font-size:6vw">Welcome to</p>
-    <p class="middle" style="font-size:18vw">PANTRY</p>
-    <button id="get-started-btn" class="start">Get Started</button>
-    <hr class="sep">
-    <p class="end" style="font-size:6vw">How it works!</p>
+
+    <div class="welcome-page">
+        <p class="top" style="font-size:6vw">Welcome to</p>
+        <p class="middle" style="font-size:10vw">PANTRY</p>
+        <button style="font-size:2vw" id="get-started-btn" class="start">Get Started</button>
+        <hr class="sep">
+        <p class="end" style="font-size:6vw">How it works!</p>
+    </div>
+
     <div class="boxes">
         <div class="box1">
             <p class="number">1.</p>
@@ -41,59 +46,66 @@
             <p></p>
         </div>
     </div>
+
     <hr class="this">
-    <p class="aboutus">Our Team</p>
-    <div class="team-container">
-        <div class="team-container">
-            <div class="team-member">
-                <div class="avatar">
-                    <img src="adityaj.png" alt="Aditya Jain">
+
+    <div id="aboutus1">
+        <p class="aboutus">Our Team</p>
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="avatar">
+                        <img src="adityaj.png" alt="Aditya Jain">
+                    </div>
+                    <div class="name">Aditya Jain</div>
+                    <div class="role">SWE</div>
+                    <div class="bio">I am a computer science major at Irvine Valley College.</div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aditya-jain0714" title="Linkedin">LinkedIn</a>
+                        <a href="#" title="GitHub">GitHub</a>
+                    </div>
                 </div>
-                <div class="name">Aditya Jain</div>
-                <div class="role">SWE</div>
-                <div class="bio">I am a computer science major at Irvine Valley College.</div>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/aditya-jain0714" title="Linkedin">LinkedIn</a>
-                    <a href="#" title="GitHub">GitHub</a>
+                <div class="team-member">
+                    <div class="avatar">
+                        <img src="ryanc.png" alt="Ryan Choi">
+                    </div>
+                    <div class="name">Ryan CHoi</div>
+                    <div class="role">Chong</div>
+                    <div class="bio">I am a computer science major at Irvine Valley College.</div>
+                    <div class="social-icons">
+                        <a href="#" title="LinkedIn">LinkedIn</a>
+                        <a href="#" title="GitHub">GitHub</a>
+                    </div>
                 </div>
-            </div>
-            <div class="team-member">
-                <div class="avatar">
-                    <img src="ryanc.png" alt="Ryan Choi">
-                </div>
-                <div class="name">Ryan CHoi</div>
-                <div class="role">Chong</div>
-                <div class="bio">I am a computer science major at Irvine Valley College.</div>
-                <div class="social-icons">
+                <div class="team-member">
+                    <div class="avatar">
+                        <img src="https://via.placeholder.com/100x100" alt="Mart Hernandez">
+                    </div>
+                    <div class="name">Mart Hernandez</div>
+                    <div class="role">Mexican</div>
+                    <div class="bio">I am a computer science major at Irvine Valley College.</div>
+                    <div class="social-icons">
                     <a href="#" title="LinkedIn">LinkedIn</a>
                     <a href="#" title="GitHub">GitHub</a>
+                    </div>
                 </div>
             </div>
-            <div class="team-member">
-                <div class="avatar">
-                    <img src="https://via.placeholder.com/100x100" alt="Mart Hernandez">
-                </div>
-                <div class="name">Mart Hernandez</div>
-                <div class="role">Mexican</div>
-                <div class="bio">I am a computer science major at Irvine Valley College.</div>
-                <div class="social-icons">
-                  <a href="#" title="LinkedIn">LinkedIn</a>
-                  <a href="#" title="GitHub">GitHub</a>
-                </div>
-            </div>
+    </div>
+
+    <hr>
+
+    <div id="contact-page">
+        <p class="contact">Contact Us!</p>
+        <div class="contact-container">
+            <h2 class="contact-header">Any Questions?</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
         </div>
     </div>
-    <hr>
-    <p class="contact">Contact Us!</p>
-    <div class="contact-container">
-        <h2 class="contact-header">Any Questions?</h2>
-        <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-    </div>
+
     <script src="main.js" defer type="module"></script>
 </body>
 </html>
