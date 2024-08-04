@@ -1,0 +1,70 @@
+body {
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  background-color: rgb(248, 244, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.signup-container {
+  background-color: rgb(175, 143, 111);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(84, 51, 16);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(84, 51, 16);
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px solid rgb(116, 81, 45);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(116, 81, 45);
+  color: rgb(248, 244, 225);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(175, 143, 111);
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: rgb(116, 81, 45);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
